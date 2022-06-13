@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y Registro de usuarios</title>
+    <!-- <link rel="shortcut icon" href="../img/"> -->
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link href=" rel=stylesheet">
+    <link rel="stylesheet" href="fontawesome/Form/stily.css">
+    <link rel="stylesheet" href="fontawesome/Form/estilos.css">
+</head>
+
+<body>
+    <main>
+        <div class="contenedor__todo">
+            <div class="caja__trasera">
+                <div class="caja__trasera-login">
+                    <h3>¿Ya tienes una cuenta?</h3>
+                    <p>Inicia sesión para entrar en la página</p>
+                    <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+                </div>
+                <div class="caja__trasera-register">
+                    <h3>¿Aún no tienes una cuenta?</h3>
+                    <p>Regístrate para que puedas iniciar sesión</p>
+                    <button id="btn__registrarse">Regístrarse</button>
+                </div>
+            </div>
+
+            <!--Formulario de Login y registro-->
+            <div class="contenedor__login-register">
+                <!--Login-->
+                <!-- php/login_usuario.php -->
+                <form action="config/login_usuario.php" method="POST" class="formulario__login">
+                    <h2 align="center">EXPRESARTE</h2>
+                    <h2>Iniciar Sesión</h2>
+                    <input type="text" name="correo" placeholder="Correo Electronico" required="">
+                    <input type="password" name="contrasena" placeholder="Contrasena" required="">
+                    <button>Entrar</button><br><br><br><br>
+
+
+                    <a href="index.HTML" class="float"><i class="fas fa-home" title="Inicio"></i></a>
+                </form>
+                <br><br><br><br>
+                <!-- php/registro_usuario_db.php -->
+                <form action="config/registro_usuario_db.php" method="POST" class="formulario__register">
+                    <br><br><br><br><br><br><br><br>
+                    <h2 align="center">EXPRESARTE</h2>
+                    <h2>Regístrarse</h2>
+                    <input type="text" name="nombre" placeholder="Nombre completo" pattern="{20,75}" required="">
+                    <input type="text" name="edad" placeholder="Edad" pattern="{2}" required="">
+                    <input type=" text" name="contacto" placeholder="Contacto" pattern="{8,20}" required="">
+                    <input type="text" name="ciudad" placeholder="Ciudad" pattern="{10,50}" required="">
+                    <input type="text" name="correo" placeholder="Correo Electronico" pattern="[A-Za-z0-9.@]{10,25}" required="">
+                    <input type="text" name="usuario" placeholder="Usuario" pattern="[A-Za-z0-9.@]{4,10}" required="">
+                    <input type="password" name="contrasena" placeholder="Contraseña" pattern="[A-Za-z0-9.@]{8,20}" required="" title="LA CONSTRASEÑA DEBE SE DE MINIMO 8 DIGITOS!!">
+                    <button>Regístrarse</button><br><br><br><br>
+                    <a href="index.HTML" class="float"><i class="fas fa-home" title="Inicio"></i></a>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="fontawesome/js/script.js"></script>
+
+
+</body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="nodo">
+    <h4>&#9400 EXPRESARTE</h4>
+</div>
+
+
+</html>

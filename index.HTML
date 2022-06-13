@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>EXPRESARTE</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="../assets/php">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="shortcut icon" href="img/Logo_expresarte.jpeg" type="image/x-icon">
+<link rel="stylesheet" href="../06Proyecto. Tienda Online/fontawesome/Form/estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<!-- MENU PRINCIPAL -->
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+                <a class="navbar-brand" href="index.HTML">EXPRESARTE</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.HTML">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tecnicas <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Òleo</a></li>
+                            <li><a href="#">Lapiz</a></li>
+                            <li><a href="#">Tenica mixtas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="php/catalogo.php">Destacados</a></li>
+                    <li>
+                        <a href="php/contacto.php">Contactos</a></li>
+                </ul>
+                <ul class=" nav navbar-nav navbar-right ">
+                    <li><a href="php/loginAdmin.php"><span class="glyphicon glyphicon-user "></span> Sign Up</a></li>
+                    <li><a href="login.HTML"><span class="glyphicon glyphicon-log-in "></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container ">
+
+
+
+        <!-- HEADER -->
+        <header>
+            <div>
+                <h1>El pintor es el artista que toma más decisiones por minuto mientras trabaja.<br> (Antonio Saura)</h1><br>
+                <button class="btn ">Productos</button>
+            </div>
+        </header>
+
+
+        <!-- PRODUCTOS -->
+        <section id="productos " class="productos ">
+            <h1 class="title ">BIENVENIDO</h1>
+            <h2>Nuestro catalogo</h2>
+
+            <div class="card ">
+                <div class="img-card ">
+                    <img src="img/pintura1.jpeg " alt=" ">
+                </div>
+
+                <div class="content-card ">
+                    <h3>ÓLEO</h3>
+                    <h2 class="price ">$99. <small>99</small></h2>
+                    <a href="# " class="btn buy ">Comprar</a>
+                </div>
+            </div>
+            <!-- Pintura2 -->
+            <div class="card ">
+                <div class="img-card ">
+                    <img src="img/pintura6.jpeg " alt=" ">
+                </div>
+
+                <div class="content-card ">
+                    <h3>ÓLEO</h3>
+                    <h2 class="price ">$59. <small>99</small></h2>
+                    <a href="#" class="btn buy ">Comprar</a>
+                </div>
+            </div>
+            <!-- Pintura 3 -->
+            <div class="card ">
+                <div class="img-card ">
+                    <img src="img/pintura3.jpg " alt=" ">
+                </div>
+
+                <div class="content-card ">
+                    <h3>Pintura en ÓLEO</h3>
+                    <h2 class="price ">$99. <small>99</small></h2>
+                    <a href="#" class="btn buy ">Comprar</a>
+                </div>
+            </div>
+            <!-- Pintura 4 -->
+            <div class="card ">
+                <div class="img-card ">
+                    <img src="img/pintura4.jpg " alt=" ">
+                </div>
+
+                <div class="content-card ">
+                    <h3>ÓLEO</h3>
+                    <h2 class="price ">$72. <small>82</small></h2>
+                    <a href="#" class="btn buy ">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card ">
+                <div class="img-card ">
+                    <img src="img/Pajaro2.jpg " alt=" ">
+                </div>
+
+                <div class="content-card ">
+                    <h3>ÓLEO</h3>
+                    <h2 class="price ">$56. <small>99</small></h2>
+                    <a href="#" class="Lo nuevo ">Comprar</a>
+                </div>
+            </div>
+            <!-- Imagen numero 6 -->
+            <div class="card ">
+                <div class="img-card ">
+                    <img src="img/Pajaro.jpg " alt=" ">
+                </div>
+
+                <div class="content-card ">
+                    <h3>ÓLEO</h3>
+                    <h2 class="price ">$99. <small>99</small></h2>
+                    <a href="#" class="btn buy ">Comprar</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- MENSAJE / INDICADOR -->
+        <section class="mensaje ">
+            <p>Te traemos solo lo mejor</p>
+        </section>
+
+
+
+        <!-- DESTACADOS / FAVORITOS -->
+        <section id="destacado " class="favorito ">
+            <h1 class="title ">Producto destacado</h1>
+
+            <div class="container-favorito ">
+                <div class="imagen-fav ">
+                    <img src="img/Pintura5.jpg " alt=" ">
+                </div>
+
+                <div class="content-fav ">
+                    <div class="header-fav ">
+                        <h1>Caballos Apache</h1>
+                        <h3>Técnicas mixtas</h3>
+                    </div>
+
+                    <div class="text ">
+                        <p>Cuando nos referimos a una técnica mixta nos referimos intervenciones con gouache, óleo o tinta. </p>
+
+                    </div>
+
+
+                    <div class="content-inferior ">
+                        <p class="price ">$40. <small>00</small></p>
+                        <a href=" " class="btn buy ">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto " class="suscribe ">
+
+            <div class="search ">
+                <input type="text " class="search-text " placeholder="Ingresa tu email " ><a href="mailto:<Expresarte>1516582017@mail.utec.edu.sv?subject="></a>"></a>>
+                <i class="fas fa-paper-plane search-icon "></i>
+            </div>
+
+        </section>
+
+        <!-- FOOTER SOCIALES -->
+        <footer>
+            <div>
+                <a href="https://www.facebook.com/adolfo.granados.94801 "><span class="fab fa-facebook-f "></span></a>
+            </div>
+
+
+            <div>
+                <a href="https://instagram.com/adolfo.granados.94801?igshid=YmMyMTA2M2Y=a dolfo.granados.94801 "><span class="fab fa-instagram "></span></a>
+            </div>
+
+            <div>
+                <a href="https://walink.co/fe71ef "><span class="fab fa-whatsapp "></span></a>
+            </div>
+
+        </footer>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+* {
+    padding: 1%;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imagenes/WELCOME.jpg) no-repeat center center fixed;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    width: 300px;
+    border: white 2px solid;
+    margin: 1%;
+}
+
+a i {
+    font-size: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: blue 5px solid;
+    font-size: 40px;
+}
+
+i {
+    font-size: 50px;
+    border-radius: 100px;
+    align-items: center;
+}
+
+.titu {
+    margin-left: 35%;
+    margin-right: 30%;
+}
+
+img {
+    width: 10%;
+}
+
+.log i {
+    font-size: 35px;
+}

@@ -1,0 +1,52 @@
+* {
+    padding: 1%;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imagenes/tf_g.jpg) no-repeat center center fixed;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-size: 50px;
+    color: white;
+}
+
+form {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+select {
+    background: white;
+    font-size: 20px;
+    color: black;
+}
+
+option {
+    font-size: 20px;
+    background: transparent;
+    color: black;
+}
+
+.resp {
+    color: black;
+    font-size: 20px;
+}
+
+.arch {
+    font-size: 20px;
+}
+
+.btn {
+    background: transparent;
+    font-size: 30px;
+    color: white;
+    border: blue 5px solid;
+}

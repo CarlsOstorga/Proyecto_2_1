@@ -1,0 +1,81 @@
+    * {
+        padding: 1%;
+        font-family: sans-serif;
+        color: white;
+    }
+    
+    body {
+        background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imagenes) no-repeat center center fixed;
+        font-size: 30px;
+    }
+    
+    ul {
+        display: flex;
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 25px;
+    }
+    
+    a i {
+        flex-wrap: wrap;
+        font-size: 25px;
+    }
+    
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        border: blue 5px solid;
+        z-index: auto;
+    }
+    
+    header nav .menu li {
+        position: relative;
+        flex-wrap: wrap;
+    }
+    
+    header nav .menu li a {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        background: transparent;
+        width: 350px;
+        color: white;
+        border: rgb(243, 243, 247) 4px solid;
+        transition: 300ms ease;
+        -webkit-transition: all 300ms ease;
+        -moz-transition: all 300ms ease;
+        -ms-transition: all 300ms ease;
+        -o-transition: all 300ms ease;
+    }
+    
+    header nav .menu li a:hover {
+        background: blue;
+    }
+    
+    header nav img {
+        width: 400px;
+    }
+    
+    header img {
+        align-items: right;
+        width: 200px;
+    }
+    
+    h1 img {
+        width: 300px;
+    }
+    
+    i {
+        font-size: 40px;
+        border-radius: 100px;
+    }
+    
+    .admin i {
+        margin-left: 50%;
+        font-size: 50px;
+    }

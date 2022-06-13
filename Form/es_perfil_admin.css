@@ -1,0 +1,59 @@
+* {
+    font-family: sans-serif;
+    max-width: 3000px;
+}
+
+body {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imagenes/ad.png) no-repeat center center fixed;
+    color: white;
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+i {
+    color: white;
+    font-size: 40px;
+}
+
+tr {
+    display: flex;
+}
+
+label {
+    color: lightskyblue;
+    margin-left: 40px;
+}
+
+.rent {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.esti {
+    display: flex;
+}
+
+.float {
+    font-size: 50px;
+    margin-top: 90px;
+    margin-left: 45%;
+    margin-right: 40%;
+}
+
+tbody {
+    border: white 4px solid;
+    align-items: left;
+}
+
+.yo {
+    border: white 4px solid;
+    width: 50%;
+}
+
+.pie {
+    font-size: 20px;
+}

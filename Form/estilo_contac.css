@@ -1,0 +1,27 @@
+* {
+    padding: 1%;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imagenes/Redes-Sociales.jpg) no-repeat center center fixed;
+    font-size: 30px;
+}
+
+div {
+    border: blue 5px solid;
+}
+
+.float {
+    font-size: 70px;
+}
+
+.logo {
+    width: 10%;
+}
+
+.ubic {
+    margin-left: 50px;
+    font-size: 40px;
+}

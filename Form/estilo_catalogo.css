@@ -1,0 +1,69 @@
+* {
+    font-family: sans-serif;
+    max-width: 3000px;
+}
+
+body {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imagenes/CAT.jpg) no-repeat center center fixed;
+    color: white;
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+i {
+    color: white;
+    font-size: 30px;
+}
+
+tr {
+    display: flex;
+}
+
+label {
+    color: lightskyblue;
+    margin-left: 40px;
+}
+
+td {
+    width: 400px;
+    font-size: 20px;
+    border: rgba(0, 128, 255, 0.5) 5px solid;
+}
+
+.redi {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+img {
+    border: green 5px solid;
+}
+
+.rent {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.esti {
+    display: flex;
+    margin: 1%;
+}
+
+.catal {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carrito {
+    margin-top: 50px;
+    margin-left: 45%;
+    margin-right: 50%;
+}

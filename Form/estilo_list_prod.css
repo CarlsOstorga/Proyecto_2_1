@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imagenes/mante.jpg) no-repeat center center fixed;
+    font-size: 25px;
+    color: white;
+}
+
+th {
+    border: white 3px solid;
+}
+
+td {
+    border: white 2px solid;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+i {
+    font-size: 40px;
+    color: white;
+}
+
+.btn {
+    background: transparent;
+    font-size: 30px;
+    color: white;
+    border: blue 5px solid;
+}
+
+.float {
+    margin-top: 3%;
+    margin-left: 25%;
+}

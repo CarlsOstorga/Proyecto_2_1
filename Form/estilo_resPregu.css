@@ -1,0 +1,33 @@
+* {
+    margin: 1%;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imagenes/respu.jpg) no-repeat center center fixed;
+    font-size: 20px;
+    color: white;
+}
+
+th {
+    border: white 3px solid;
+}
+
+td {
+    border: white 2px solid;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+i {
+    font-size: 40px;
+    color: white;
+}
+
+.float {
+    margin-top: 3%;
+    margin-left: 25%;
+}

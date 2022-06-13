@@ -1,0 +1,42 @@
+* {
+    padding: 1%;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imagenes/nso.jpg) no-repeat center center fixed;
+    font-size: 30px;
+}
+
+div {
+    border: blue 5px solid;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 35%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    border: white 2px solid;
+    margin: 1%;
+}
+
+i {
+    font-size: 50px;
+}
+
+.logo {
+    width: 10%;
+}
+
+.ubic {
+    font-size: 70px;
+}

@@ -1,0 +1,73 @@
+* {
+    padding: 1%;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imagenes/zonaxer-01-0.png) no-repeat center center fixed;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    border: green 4px solid;
+    margin: 1%;
+    font-size: 25px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: blue 5px solid;
+    z-index: auto;
+}
+
+header nav .menu li {
+    position: relative;
+}
+
+header nav .menu li a {
+    display: block;
+    padding: 20px;
+    background: transparent;
+    color: white;
+    border: rgb(243, 243, 247) 4px solid;
+    transition: 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+
+header nav .menu li a:hover {
+    background: blue;
+}
+
+i {
+    font-size: 40px;
+    border-radius: 100px;
+}
+
+.titu {
+    margin-left: 35%;
+    margin-right: 30%;
+}
+
+img {
+    width: 10%;
+}
+
+.log {
+    font-size: 90px;
+    margin-left: 35%;
+    margin-right: 30%;
+}
